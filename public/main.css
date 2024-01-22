@@ -1,0 +1,51 @@
+/*!**************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/main.scss ***!
+  \**************************************************************************************************************************************************/
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+  border-bottom: solid 1px var(--text-color);
+}
+header nav {
+  padding: 0 10px;
+}
+header nav a {
+  color: var(--secondary-text-color);
+  display: inline-flex;
+  text-decoration: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  height: 30px;
+  padding: 0 10px;
+  align-items: center;
+}
+header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+header .logo {
+  background-image: url(/quickpage-logo.png);
+  font-size: 2rem;
+  height: 3rem;
+  padding: 0.5rem;
+  line-height: 3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -87px;
+}
